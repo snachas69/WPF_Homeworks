@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Programming Projects\\C#\\WpfApp1\\WpfApp2\\WpfApp2.csproj": {}
+    "D:\\Programming Projects\\C#\\WpfApp1\\05.09.2022_2\\WpfApp2.csproj": {}
   },
   "projects": {
-    "D:\\Programming Projects\\C#\\WpfApp1\\WpfApp2\\WpfApp2.csproj": {
+    "D:\\Programming Projects\\C#\\WpfApp1\\05.09.2022_2\\WpfApp2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programming Projects\\C#\\WpfApp1\\WpfApp2\\WpfApp2.csproj",
+        "projectUniqueName": "D:\\Programming Projects\\C#\\WpfApp1\\05.09.2022_2\\WpfApp2.csproj",
         "projectName": "WpfApp2",
-        "projectPath": "D:\\Programming Projects\\C#\\WpfApp1\\WpfApp2\\WpfApp2.csproj",
+        "projectPath": "D:\\Programming Projects\\C#\\WpfApp1\\05.09.2022_2\\WpfApp2.csproj",
         "packagesPath": "C:\\Users\\Vlasyk\\.nuget\\packages\\",
-        "outputPath": "D:\\Programming Projects\\C#\\WpfApp1\\WpfApp2\\obj\\",
+        "outputPath": "D:\\Programming Projects\\C#\\WpfApp1\\05.09.2022_2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
