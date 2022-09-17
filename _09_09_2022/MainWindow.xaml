@@ -5,20 +5,28 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_09_09_2022"
         mc:Ignorable="d"
-        Title="MainWindow" 
-        Height="450" 
-        Width="720" 
-        Loaded="Window_Loaded"
+        Title="MainWindow"
+        Height="450"
+        Width="720"
         ResizeMode="NoResize"
         Icon="/Image/download.png">
-    <Grid>
+    <Canvas>
         <TextBlock FontSize="30"
-                   VerticalAlignment="Center"
-                   HorizontalAlignment="Center"
-                   Margin="0,0,0,150">
+                   Canvas.Top="100"
+                   Canvas.Left="50">
             Do you want to have your payment increased?
         </TextBlock>
-        <Grid Name="buttonPositionGrid"/>
-    </Grid>
+        <Button Content="Yes"
+                Width="100"
+                Height="50"
+                Canvas.Bottom="90"
+                Canvas.Left="150"
+                MouseEnter="Button_MouseEnter"/>
+        <Button Content="No"
+                Width="100"
+                Height="50"
+                Canvas.Bottom="90"
+                Canvas.Right="150"
+                Click="Button_Click"/>
+    </Canvas>
 </Window>
-         
