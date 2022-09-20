@@ -5,8 +5,44 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_12_09_2022"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        Title="Verification" Height="450" Width="800">
+    <Canvas>
+        <TextBlock Canvas.Left="250"
+                   Canvas.Top="150"
+                   FontSize="15"
+                   Text="Nickname"/>
+        <TextBox Canvas.Left="350"
+                 Canvas.Top="150"
+                 Width="200"
+                 x:Name="nicknameTextBox"/>
+        <TextBlock Canvas.Left="250"
+                   Canvas.Top="200"
+                   FontSize="15"
+                   Text="Password"/>
+        <PasswordBox Canvas.Left="350"
+                     Canvas.Top="200"
+                     PasswordChar="*"
+                     Width="200"
+                     x:Name="passwordTextBox"/>
+        <Button Canvas.Bottom="100"
+                Canvas.Left="100"
+                Content="Log In"
+                Click="ButtonLogIn_Click"
+                Height="30"
+                Width="100"/>
+        <Button Canvas.Bottom="100"
+                Canvas.Right="100"
+                Content="Sign Up"
+                Click="ButtonSignUp_Click"
+                Height="30"
+                Width="100"/>
+        <Button Canvas.Bottom="60"
+                Canvas.Left="350"
+                Content="Start Game"
+                Click="ButtonStartGame_Click"
+                Height="40"
+                IsEnabled="False"
+                Width="100"
+                x:Name="startGameButton"/>
+    </Canvas>
 </Window>

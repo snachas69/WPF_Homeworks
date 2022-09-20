@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "fnfcowtBK/z2EM+Mwg1cnl0rszSpH/Vbe20mnvJNdUtiiQZ1/CW4viGZB0DP8JBML1iP9E503IUBjj3aYc9ZUA==",
+  "dgSpecHash": "Q+QxgOo/JQNdqYMqhVgi44pLpH4IOjmrKqTE7K7JYYgwNlEc1FyjYb7iOf3JFrTnI2kl/yuQgxDSLWc1TgApvQ==",
   "success": true,
   "projectFilePath": "D:\\Programming Projects\\C#\\WpfApp1\\_12_09_2022\\_12_09_2022.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Vlasyk\\.nuget\\packages\\extended.wpf.toolkit\\4.4.0\\extended.wpf.toolkit.4.4.0.nupkg.sha512"
+  ],
   "logs": []
 }

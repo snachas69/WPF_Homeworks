@@ -1,0 +1,3 @@
+D:\Programming Projects\C#\WpfApp1\_19_09_2022\obj\Debug\net6.0-windows\_19_09_2022.csproj.AssemblyReference.cache
+D:\Programming Projects\C#\WpfApp1\_19_09_2022\obj\Debug\net6.0-windows\App.g.cs
+D:\Programming Projects\C#\WpfApp1\_19_09_2022\obj\Debug\net6.0-windows\_19_09_2022_MarkupCompile.cache
