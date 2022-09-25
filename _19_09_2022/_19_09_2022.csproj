@@ -7,4 +7,19 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Images\Border.png" />
+    <None Remove="Images\GameIcon.jpg" />
+    <None Remove="Images\GameIcon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Border.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\GameIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
 </Project>
