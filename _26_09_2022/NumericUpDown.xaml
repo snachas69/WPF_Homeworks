@@ -1,0 +1,42 @@
+﻿<UserControl x:Class="_26_09_2022.NumericUpDown"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:_26_09_2022"
+             mc:Ignorable="d"
+             DataContext="{Binding RelativeSource={RelativeSource Mode=Self}}"
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBox Grid.Column="1"
+                 Background="{Binding Path=Background}"
+                 Foreground="{Binding Path=Foreground}"
+                 Text="{Binding Value}"
+                 PreviewTextInput="TextBox_PreviewTextInput"/>
+
+        <Button x:Name="increment"
+                Grid.Column="2"
+                Click="increment_Click"
+                Background="{Binding ButtonColor}">
+            <Viewbox>
+                <TextBlock Text="+"
+                           Foreground="Black"/>
+            </Viewbox>
+        </Button>
+        <Button x:Name="decrement"
+                Grid.Column="0"
+                Click="decrement_Click"
+                Background="{Binding ButtonColor}">
+            <Viewbox>
+                <TextBlock Text="-"
+                           Foreground="Black"/>
+            </Viewbox>
+        </Button>
+    </Grid>
+</UserControl>
