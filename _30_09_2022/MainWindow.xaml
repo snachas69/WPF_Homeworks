@@ -1,0 +1,106 @@
+﻿<Window x:Class="_30_09_2022.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_30_09_2022"
+        mc:Ignorable="d"
+        Icon="/Images/files.ico"
+        DataContext="{Binding RelativeSource={RelativeSource Mode=Self}}"
+        Title="Notepad" Height="450" Width="807">
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="File">
+                <MenuItem Header="New" Click="New_Click"/>
+                <MenuItem Header="Open" Click="Open_Click"/>
+                <MenuItem Header="Save" Click="Save_Click"/>
+            </MenuItem>
+            <MenuItem Header="Edit">
+                <MenuItem Header="Copy" Click="Copy_Click"/>
+                <MenuItem Header="Paste" Click="Paste_Click"/>
+                <MenuItem Header="Cut" Click="Cut_Click"/>
+                <MenuItem Header="Select All" Click="SelectAll_Click"/>
+            </MenuItem>
+            <MenuItem Header="Help">
+                <MenuItem Header="Send Help" Click="SendHelp_Click"/>
+                <MenuItem Header="View Help" Click="ViewHelp_Click"/>
+                <Separator/>
+                <MenuItem Header="About Notepad" Click="About_Click"/>
+            </MenuItem>
+        </Menu>
+        <ToolBar DockPanel.Dock="Top">
+            <Button Click="New_Click" ToolTip="New tab">
+                <Image Source="/Images/files.ico" Height="30" Width="50"/>
+            </Button>
+            <Button Click="Open_Click" ToolTip="Open">
+                <Image Source ="/Images/folder_find.ico" Height="30" Width="50"/>
+            </Button>
+            <Button Click="Save_Click" ToolTip="Save">
+                <Image Source="/Images/filesaveas.ico" Height="30" Width="50"/>
+            </Button>
+            <Separator/>
+            <Button Click="Copy_Click" ToolTip="Copy">
+                <Image Source="/Images/copy.ico" Height="30" Width="50"/>
+            </Button>
+            <Button Click="Paste_Click" ToolTip="Paste">
+                <Image Source="/Images/paste.ico" Height="30" Width="50"/>
+            </Button>
+            <Button Click="Cut_Click" ToolTip="Cut">
+                <Image Source="/Images/cut.ico" Height="30" Width="50"/>
+            </Button>
+            <Button Click="SelectAll_Click" ToolTip="Save all">
+                <Image Source="/Images/edit_select_all.ico" Height="30" Width="50"/>
+            </Button>
+            <Separator/>
+            <Button Click="Close_Click" ToolTip="Close selected tab">
+                <Image Source="/Images/button_cancel.ico" Height="30" Width="50"/>
+            </Button>
+            <Separator/>
+            <Button Click="SendHelp_Click" ToolTip="Send help">
+                <Image Source="/Images/send.ico" Height="30" Width="50"/>
+            </Button>
+            <Button Click="ViewHelp_Click" ToolTip="View help">
+                <Image Source="/Images/help.ico" Height="30" Width="50"/>
+            </Button>
+            <Separator/>
+            <Button Click="About_Click" ToolTip="About notepad">
+                <Image Source="/Images/info.ico" Height="30" Width="50"/>
+            </Button>
+        </ToolBar>
+        <StatusBar DockPanel.Dock="Bottom" Height="20">
+            <StatusBarItem>
+                <TextBlock Text="Ln: "/>
+            </StatusBarItem>
+            <StatusBarItem>
+                <TextBlock Text="{Binding Lines}"/>
+            </StatusBarItem>
+            <StatusBarItem>
+                <TextBlock Text="Col: "/>
+            </StatusBarItem>
+            <StatusBarItem>
+                <TextBlock Text="{Binding Columns}"/>
+            </StatusBarItem>
+            <Separator/>
+            <StatusBarItem>
+                <TextBlock Text="Words: "/>
+            </StatusBarItem>
+            <StatusBarItem>
+                <TextBlock Text="{Binding Words}"/>
+            </StatusBarItem>
+            <Separator/>
+            <StatusBarItem>
+                <TextBlock Text="{Binding Now, StringFormat=dd\ MMM\ yyyy}"/>
+            </StatusBarItem>
+            <StatusBarItem>
+                <TextBlock Text="{Binding Now, StringFormat=hh:mm:ss}"/>
+            </StatusBarItem>
+        </StatusBar>
+        <TabControl x:Name="tabPannel"
+                    SelectionChanged="tabPannel_SelectionChanged">
+            <TabItem Header="New Tab">
+                <RichTextBox Background="{Binding BackColor}"
+                             Foreground="{Binding FontColor}"/>
+            </TabItem>
+        </TabControl>
+    </DockPanel>
+</Window>
