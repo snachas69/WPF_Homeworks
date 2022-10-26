@@ -14,28 +14,28 @@
         <Image Source="/MyRealPhoto" Grid.Column="0" Margin="35,25,35,25" VerticalAlignment="Top"/>
         <TextBlock Text="Особисті дані" FontFamily="Times New Roman" Margin="11,170,61,-94" FontWeight="DemiBold" Foreground="White"/>
         <TextBlock Text="----------------------------------------" Foreground="White" Margin="11,179,7,-253"/>
-        <!--І'мя-->
+
         <TextBlock Text="І'мя" FontFamily="Times New Roman" Margin="11,189,61,-113" Foreground="White" FontWeight="DemiBold" Cursor="AppStarting"/>
         <TextBlock Text="Власюк Олександр" Margin="11,200,61,-124" Foreground="White" Cursor="AppStarting"/>
-        <!--Адреса-->
+
         <TextBlock Text="Адреса" FontFamily="Times New Roman" Margin="11,218,61,-142" Foreground="White" FontWeight="DemiBold" Cursor="AppStarting"/>
         <TextBlock Text="м.Коростень, вул. Б-Шосе" Margin="11,230,61,-154" Foreground="White" Cursor="AppStarting"/>
-        <!--Номер телефону-->
+
         <TextBlock Text="Номер телефону" FontFamily="Times New Roman" Margin="11,254,61,-178" Foreground="White" FontWeight="DemiBold" Cursor="AppStarting"/>
         <TextBlock Text="+38 068 718-04-46" Margin="11,267,61,-191" Foreground="White" Cursor="AppStarting"/>
-        <!--Email-->
+
         <TextBlock Text="Email" FontFamily="Times New Roman" Margin="11,291,61,-215" Foreground="White" FontWeight="DemiBold" Cursor="AppStarting"/>
         <TextBlock Text="volexandr@gmail.com" Margin="11,304,61,76" Foreground="White" Cursor="AppStarting"/>
-        <!--Дата народження-->
+
         <TextBlock Text="Дата Народження" FontFamily="Times New Roman" Margin="10,330,62,70" Foreground="White" FontWeight="DemiBold" Cursor="AppStarting"/>
         <TextBlock Text="8 березня 2005" Margin="10,346,62,21" Foreground="White" Cursor="AppStarting"/>
-        <!--Інтереси-->
+
         <TextBlock Text="Інтереси" FontFamily="Times New Roman" Margin="11,393,61,-29" Foreground="White" FontWeight="DemiBold" Cursor="AppStarting"/>
         <TextBlock Text="----------------------------------------" Foreground="White" Margin="10,401,8,-142"/>
         <TextBlock Text="Інземні мови, географія" Margin="10,422,10,0" Foreground="White" FontWeight="DemiBold" Cursor="AppStarting"/>
         <TextBlock Text="Програмування" Margin="10,442,62,-16" Foreground="White" FontWeight="DemiBold" Cursor="AppStarting"/>
         <TextBlock Text="Філософія, психологія" Margin="11,461,61,-55" Foreground="White" FontWeight="DemiBold" Cursor="AppStarting"/>
-        <!--Мови-->
+
         <TextBlock Text="Мови" FontFamily="Times New Roman" Margin="11,507,61,-113" Foreground="White" FontWeight="DemiBold" Cursor="AppStarting"/>
         <TextBlock Text="----------------------------------------" Foreground="White" Margin="11,515,7,116"/>
         <TextBlock Text="Англійська(B2)" Margin="10,528,11,-121" Foreground="White" FontWeight="DemiBold" Cursor="AppStarting"/>
