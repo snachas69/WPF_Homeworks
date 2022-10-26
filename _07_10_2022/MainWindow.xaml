@@ -1,0 +1,303 @@
+﻿<Window x:Class="_07_10_2022.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_07_10_2022"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <FlowDocumentScrollViewer>
+        <FlowDocument ColumnGap="50" IsColumnWidthFlexible="True">
+
+            <Table BorderThickness="3" CellSpacing="0">
+                <Table.Columns>
+                    <TableColumn Width="7*" />
+                    <TableColumn Width="7*" />
+                    <TableColumn Width="7*" />
+                    <TableColumn Width="7*" />
+                    <TableColumn Width="7*" />
+                    <TableColumn Width="7*" />
+                    <TableColumn Width="7*" />
+                    <TableColumn Width="7*" />
+                    <TableColumn Width="7*" />
+                    <TableColumn Width="7*" />
+                </Table.Columns>
+
+                <TableRowGroup Background="YellowGreen">
+                    <TableRow>
+                        <TableCell BorderBrush="Black" BorderThickness="1">
+                            <Paragraph Margin="5" TextAlignment="Center">№ Уроку</Paragraph>
+                        </TableCell>
+                        <TableCell
+                            BorderBrush="Black"
+                            BorderThickness="1"
+                            ColumnSpan="2">
+                            <Paragraph Margin="5" TextAlignment="Left">Дзвінки</Paragraph>
+                        </TableCell>
+                        <TableCell BorderBrush="Black" BorderThickness="1">
+                            <Paragraph Margin="5" TextAlignment="Center">Понеділок</Paragraph>
+                        </TableCell>
+                        <TableCell
+                            BorderBrush="Black"
+                            BorderThickness="1"
+                            ColumnSpan="2">
+                            <Paragraph Margin="5" TextAlignment="Center">Вівторок</Paragraph>
+                        </TableCell>
+                        <TableCell
+                            BorderBrush="Black"
+                            BorderThickness="1"
+                            ColumnSpan="2">
+                            <Paragraph Margin="5" TextAlignment="Center">Середа</Paragraph>
+                        </TableCell>
+                        <TableCell BorderBrush="Black" BorderThickness="1">
+                            <Paragraph Margin="5" TextAlignment="Center">Четвер</Paragraph>
+                        </TableCell>
+                        <TableCell BorderBrush="Black" BorderThickness="1">
+                            <Paragraph Margin="5" TextAlignment="Center">П'ятниця</Paragraph>
+                        </TableCell>
+                    </TableRow>
+                </TableRowGroup>
+                <TableRowGroup>
+                    <TableRow>
+                        <TableCell BorderBrush="Black" BorderThickness="1">
+                            <Paragraph Margin="5" TextAlignment="Center">1</Paragraph>
+                        </TableCell>
+                        <TableCell BorderBrush="Black" BorderThickness="1">
+                            <Paragraph Margin="5" TextAlignment="Left">8.00</Paragraph>
+                        </TableCell>
+                        <TableCell BorderBrush="Black" BorderThickness="1">
+                            <Paragraph Margin="5" TextAlignment="Left">8.45</Paragraph>
+                        </TableCell>
+                        <TableCell BorderBrush="Black" BorderThickness="1">
+                            <Paragraph Margin="5" TextAlignment="Center">Алгебра</Paragraph>
+                        </TableCell>
+                        <TableCell
+                            BorderBrush="Black"
+                            BorderThickness="1"
+                            ColumnSpan="1"
+                            RowSpan="2">
+                            <Paragraph Margin="5" TextAlignment="Center">Інформатика 1 група</Paragraph>
+                        </TableCell>
+                        <TableCell
+                            BorderBrush="Black"
+                            BorderThickness="1"
+                            ColumnSpan="1"
+                            RowSpan="2">
+                            <Paragraph Margin="5" TextAlignment="Center">Іноземна мова 2 група</Paragraph>
+                        </TableCell>
+                        <TableCell
+                            BorderBrush="Black"
+                            BorderThickness="1"
+                            ColumnSpan="2">
+                            <Paragraph Margin="5" TextAlignment="Center">Українська література</Paragraph>
+                        </TableCell>
+                        <TableCell BorderBrush="Black" BorderThickness="1">
+                            <Paragraph Margin="5" TextAlignment="Center">Креслення</Paragraph>
+                        </TableCell>
+                        <TableCell BorderBrush="Black" BorderThickness="1">
+                            <Paragraph Margin="5" TextAlignment="Center">Хімія</Paragraph>
+                        </TableCell>
+                    </TableRow>
+
+
+                    <TableRow>
+                        <TableCell BorderBrush="Black" BorderThickness="1">
+                            <Paragraph Margin="5" TextAlignment="Center">2</Paragraph>
+                        </TableCell>
+                        <TableCell BorderBrush="Black" BorderThickness="1">
+                            <Paragraph Margin="5" TextAlignment="Left">8.55</Paragraph>
+                        </TableCell>
+                        <TableCell BorderBrush="Black" BorderThickness="1">
+                            <Paragraph Margin="5" TextAlignment="Left">8.40</Paragraph>
+                        </TableCell>
+                        <TableCell BorderBrush="Black" BorderThickness="1">
+                            <Paragraph Margin="5" TextAlignment="Center">Геометрія</Paragraph>
+                        </TableCell>
+                        <TableCell
+                            BorderBrush="Black"
+                            BorderThickness="1"
+                            ColumnSpan="2">
+                            <Paragraph Margin="5" TextAlignment="Center">Історія України</Paragraph>
+                        </TableCell>
+                        <TableCell BorderBrush="Black" BorderThickness="1">
+                            <Paragraph Margin="5" TextAlignment="Center">Рідний край</Paragraph>
+                        </TableCell>
+                        <TableCell BorderBrush="Black" BorderThickness="1">
+                            <Paragraph Margin="5" TextAlignment="Center">Біологія</Paragraph>
+                        </TableCell>
+                    </TableRow>
+
+
+                    <TableRow>
+                        <TableCell BorderBrush="Black" BorderThickness="1">
+                            <Paragraph Margin="5" TextAlignment="Center">3</Paragraph>
+                        </TableCell>
+                        <TableCell BorderBrush="Black" BorderThickness="1">
+                            <Paragraph Margin="5" TextAlignment="Left">9.50</Paragraph>
+                        </TableCell>
+                        <TableCell BorderBrush="Black" BorderThickness="1">
+                            <Paragraph Margin="5" TextAlignment="Left">10.35</Paragraph>
+                        </TableCell>
+                        <TableCell BorderBrush="Black" BorderThickness="1">
+                            <Paragraph Margin="5" TextAlignment="Center">Українська мова</Paragraph>
+                        </TableCell>
+                        <TableCell
+                            BorderBrush="Black"
+                            BorderThickness="1"
+                            ColumnSpan="2">
+                            <Paragraph Margin="5" TextAlignment="Center">Психологія</Paragraph>
+                        </TableCell>
+                        <TableCell
+                            BorderBrush="Black"
+                            BorderThickness="1"
+                            ColumnSpan="2">
+                            <Paragraph Margin="5" TextAlignment="Center">Хімія</Paragraph>
+                        </TableCell>
+                        <TableCell BorderBrush="Black" BorderThickness="1">
+                            <Paragraph Margin="5" TextAlignment="Center">Алгебра</Paragraph>
+                        </TableCell>
+                        <TableCell BorderBrush="Black" BorderThickness="1">
+                            <Paragraph Margin="5" TextAlignment="Center">Етика</Paragraph>
+                        </TableCell>
+                    </TableRow>
+
+                    <TableRow>
+                        <TableCell
+                            BorderBrush="Black"
+                            BorderThickness="1"
+                            ColumnSpan="10">
+                            <Paragraph
+                                Foreground="MediumPurple"
+                                FontSize="40"
+                                FontWeight="Bold"
+                                TextAlignment="Center">
+                                Велика перерва!
+                            </Paragraph>
+                        </TableCell>
+                    </TableRow>
+
+
+                    <TableRow>
+                        <TableCell BorderBrush="Black" BorderThickness="1">
+                            <Paragraph Margin="5" TextAlignment="Center">4</Paragraph>
+                        </TableCell>
+                        <TableCell BorderBrush="Black" BorderThickness="1">
+                            <Paragraph Margin="5" TextAlignment="Left">10.55</Paragraph>
+                        </TableCell>
+                        <TableCell BorderBrush="Black" BorderThickness="1">
+                            <Paragraph Margin="5" TextAlignment="Left">11.40</Paragraph>
+                        </TableCell>
+                        <TableCell BorderBrush="Black" BorderThickness="1">
+                            <Paragraph Margin="5" TextAlignment="Center">Українська література</Paragraph>
+                        </TableCell>
+                        <TableCell
+                            BorderBrush="Black"
+                            BorderThickness="1"
+                            ColumnSpan="2">
+                            <Paragraph Margin="5" TextAlignment="Center">Зарубіжна література</Paragraph>
+                        </TableCell>
+                        <TableCell
+                            BorderBrush="Black"
+                            BorderThickness="1"
+                            ColumnSpan="2">
+                            <Paragraph Margin="5" TextAlignment="Center">Біологія</Paragraph>
+                        </TableCell>
+                        <TableCell BorderBrush="Black" BorderThickness="1">
+                            <Paragraph Margin="5" TextAlignment="Center">Всесвітня історія</Paragraph>
+                        </TableCell>
+                        <TableCell
+                            BorderBrush="Black"
+                            BorderThickness="1"
+                            RowSpan="2">
+                            <Paragraph Margin="5" TextAlignment="Center">Фізика</Paragraph>
+                        </TableCell>
+                    </TableRow>
+
+
+                    <TableRow>
+                        <TableCell BorderBrush="Black" BorderThickness="1">
+                            <Paragraph Margin="5" TextAlignment="Center">5</Paragraph>
+                        </TableCell>
+                        <TableCell BorderBrush="Black" BorderThickness="1">
+                            <Paragraph Margin="5" TextAlignment="Left">11.50</Paragraph>
+                        </TableCell>
+                        <TableCell BorderBrush="Black" BorderThickness="1">
+                            <Paragraph Margin="5" TextAlignment="Left">12.35</Paragraph>
+                        </TableCell>
+                        <TableCell BorderBrush="Black" BorderThickness="1">
+                            <Paragraph Margin="5" TextAlignment="Center">Фізична культура</Paragraph>
+                        </TableCell>
+                        <TableCell
+                            BorderBrush="Black"
+                            BorderThickness="1"
+                            ColumnSpan="2">
+                            <Paragraph Margin="5" TextAlignment="Center">Алгебра</Paragraph>
+                        </TableCell>
+                        <TableCell
+                            BorderBrush="Black"
+                            BorderThickness="1"
+                            RowSpan="2">
+                            <Paragraph Margin="5" TextAlignment="Center">Інформатика 2 група</Paragraph>
+                        </TableCell>
+                        <TableCell
+                            BorderBrush="Black"
+                            BorderThickness="1"
+                            RowSpan="2">
+                            <Paragraph Margin="5" TextAlignment="Center">Іноземна мова 1 група</Paragraph>
+                        </TableCell>
+                        <TableCell BorderBrush="Black" BorderThickness="1">
+                            <Paragraph Margin="5" TextAlignment="Center">Спецкурс</Paragraph>
+                        </TableCell>
+                    </TableRow>
+
+
+                    <TableRow>
+                        <TableCell BorderBrush="Black" BorderThickness="1">
+                            <Paragraph Margin="5" TextAlignment="Center">6</Paragraph>
+                        </TableCell>
+                        <TableCell BorderBrush="Black" BorderThickness="1">
+                            <Paragraph Margin="5" TextAlignment="Left">12.45</Paragraph>
+                        </TableCell>
+                        <TableCell BorderBrush="Black" BorderThickness="1">
+                            <Paragraph Margin="5" TextAlignment="Left">13.30</Paragraph>
+                        </TableCell>
+                        <TableCell BorderBrush="Black" BorderThickness="1">
+                            <Paragraph Margin="5" TextAlignment="Center">Історія</Paragraph>
+                        </TableCell>
+                        <TableCell
+                            BorderBrush="Black"
+                            BorderThickness="1"
+                            ColumnSpan="2">
+                            <Paragraph Margin="5" TextAlignment="Center">Вівторок</Paragraph>
+                        </TableCell>
+                        <TableCell
+                            BorderBrush="Black"
+                            BorderThickness="1"
+                            RowSpan="2">
+                            <Paragraph Margin="5" TextAlignment="Center">Логіка</Paragraph>
+                        </TableCell>
+                        <TableCell
+                            BorderBrush="Black"
+                            BorderThickness="1"
+                            RowSpan="2">
+                            <Paragraph Margin="5" TextAlignment="Center">Фізична культура</Paragraph>
+                        </TableCell>
+                    </TableRow>
+                    <TableRow />
+
+                    <TableRow>
+                        <TableCell
+                            Background="#FF68E0EF"
+                            BorderBrush="Black"
+                            BorderThickness="1"
+                            ColumnSpan="10">
+                            <Paragraph FontSize="30" TextAlignment="Center">Додаткові індивідуальні заняття</Paragraph>
+                        </TableCell>
+                    </TableRow>
+
+                </TableRowGroup>
+            </Table>
+
+        </FlowDocument>
+    </FlowDocumentScrollViewer>
+</Window>
