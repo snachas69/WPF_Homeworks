@@ -1,0 +1,190 @@
+﻿<Window x:Class="_07_10_2022_2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_07_10_2022_2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <FlowDocumentScrollViewer>
+        <FlowDocument>
+            <List MarkerStyle="UpperRoman">
+                <ListItem>
+                    <Paragraph>
+                        <Bold>Медаль "За особливі заслуги перед Німецьким автономним округом"</Bold>
+                    </Paragraph>
+                    <List MarkerStyle="Disc">
+                        <ListItem>
+                            <Paragraph>
+                                <Bold>2013 рік</Bold>
+                            </Paragraph>
+                            <List MarkerStyle="Decimal">
+                                <ListItem>
+                                    <Paragraph>Назаренко Ніна Петрівна</Paragraph>
+                                </ListItem>
+                            </List>
+                        </ListItem>
+                    </List>
+                    <List MarkerStyle="Disc">
+                        <ListItem>
+                            <Paragraph>
+                                <Bold>
+                                    2012 рік
+                                </Bold>
+                            </Paragraph>
+                            <List MarkerStyle="Decimal">
+                                <ListItem>
+                                    <Paragraph>Шумило Юнос Дмитрович</Paragraph>
+                                </ListItem>
+                            </List>
+                        </ListItem>
+                    </List>
+                    <List MarkerStyle="Disc">
+                        <ListItem>
+                            <Paragraph>
+                                <Bold>
+                                    2011 рік
+                                </Bold>
+                            </Paragraph>
+                            <List MarkerStyle="Decimal">
+                                <ListItem>
+                                    <Paragraph>Бармич Марія Яковлівна</Paragraph>
+                                </ListItem>
+                            </List>
+                        </ListItem>
+                    </List>
+                    <List MarkerStyle="Disc">
+                        <ListItem>
+                            <Paragraph>
+                                <Bold>
+                                    2010 рік
+                                </Bold>
+                            </Paragraph>
+                            <List MarkerStyle="Decimal">
+                                <ListItem>
+                                    <Paragraph>Безруков Євген Олексійович</Paragraph>
+                                </ListItem>
+                                <ListItem>
+                                    <Paragraph>Канюкова Роза Іванівна</Paragraph>
+                                </ListItem>
+                                <ListItem>
+                                    <Paragraph>Костівна Рімма Василівна</Paragraph>
+                                </ListItem>
+                            </List>
+                        </ListItem>
+                    </List>
+                    <List MarkerStyle="Disc">
+                        <ListItem>
+                            <Paragraph>
+                                <Bold>
+                                    2009 рік
+                                </Bold>
+                            </Paragraph>
+                            <List MarkerStyle="Decimal">
+                                <ListItem>
+                                    <Paragraph>Ардєєв Філіп Микитович</Paragraph>
+                                </ListItem>
+                                <ListItem>
+                                    <Paragraph>Іваненко Іван Іванович</Paragraph>
+                                </ListItem>
+                                <ListItem>
+                                    <Paragraph>Іваненко Іван Іванович</Paragraph>
+                                </ListItem>
+                            </List>
+                        </ListItem>
+                    </List>
+                </ListItem>
+
+                <ListItem>
+                    <Paragraph>
+                        <Bold>
+        Bold>Почесне звання "Почесний громадянин Німецького автономного округу"
+                            </Bold>
+                        </Paragraph>
+                        <List MarkerStyle="Disc">
+                            <ListItem>
+                                <Paragraph>
+                                    <Bold>
+                                        2013 рік
+                                    </Bold>
+                                </Paragraph>
+                                <List MarkerStyle="Decimal">
+                                    <ListItem>
+                                        <Paragraph>Іваненко Іван Іванович</Paragraph>
+                                    </ListItem>
+                                </List>
+                            </ListItem>
+                        </List>
+                        <List MarkerStyle="Disc">
+                            <ListItem>
+                                <Paragraph>
+                                    <Bold>
+                                        2012 рік
+                                    </Bold>
+                                </Paragraph>
+                                <List MarkerStyle="Decimal">
+                                    <ListItem>
+                                        <Paragraph>Шумило Юнос Дмитрович</Paragraph>
+                                    </ListItem>
+                                </List>
+                            </ListItem>
+                        </List>
+                        <List MarkerStyle="Disc">
+                            <ListItem>
+                                <Paragraph>
+                                    <Bold>
+                                        2011 рік
+                                    </Bold>
+                                </Paragraph>
+                                <List MarkerStyle="Decimal">
+                                    <ListItem>
+                                        <Paragraph>Бармич Марія Яковлівна</Paragraph>
+                                    </ListItem>
+                                </List>
+                            </ListItem>
+                        </List>
+                        <List MarkerStyle="Disc">
+                            <ListItem>
+                                <Paragraph>
+                                    <Bold>
+                                        2010 рік
+                                    </Bold>
+                                </Paragraph>
+                                <List MarkerStyle="Decimal">
+                                    <ListItem>
+                                        <Paragraph>Безруков Євген Олексійович</Paragraph>
+                                    </ListItem>
+                                    <ListItem>
+                                        <Paragraph>Канюкова Роза Іванівна</Paragraph>
+                                    </ListItem>
+                                    <ListItem>
+                                        <Paragraph>Костівна Рімма Василівна</Paragraph>
+                                    </ListItem>
+                                </List>
+                            </ListItem>
+                        </List>
+                        <List MarkerStyle="Disc">
+                            <ListItem>
+                                <Paragraph>
+                                    <Bold>
+                                        2009 рік
+                                    </Bold>
+                                </Paragraph>
+                                <List MarkerStyle="Decimal">
+                                    <ListItem>
+                                        <Paragraph>Ардєєв Філіп Микитович</Paragraph>
+                                    </ListItem>
+                                    <ListItem>
+                                        <Paragraph>Іваненко Іван Іванович</Paragraph>
+                                    </ListItem>
+                                    <ListItem>
+                                        <Paragraph>Іваненко Іван Іванович</Paragraph>
+                                    </ListItem>
+                                </List>
+                            </ListItem>
+                        </List>
+                    </ListItem>
+                </List>
+            </FlowDocument>
+        </FlowDocumentScrollViewer>
+    </Window>
